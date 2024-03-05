@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Mengambil data dari sumber data main_data.csv
-main_df = pd.read_csv("https://raw.githubusercontent.com/salmadanu/bangkit-ml/main/proyek_analisis_data/submission/dashboard/main_data.csv")
+main_df = pd.read_csv("https://raw.githubusercontent.com/salmadanu/streamlit-app/main/main_data.csv")
 
 # Judul page dan penjelasan
 st.subheader('Proyek Akhir Analisis Data :rain_cloud:')
